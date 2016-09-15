@@ -18,4 +18,3 @@ result = mymodel.main(*args)
 print result
 'setosa'
 ```
-
