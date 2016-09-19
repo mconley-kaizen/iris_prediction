@@ -14,7 +14,7 @@ iris = datasets.load_iris()
 features = iris.data[0:1]
 args = features[0].tolist()
 
-result = mymodel.main(*args)
+result = mymodel.predict(*args)
 print result
 'setosa'
 ```
