@@ -1,1 +1,1 @@
-from .core import fit, main
+from .core import fit, predict 
