@@ -15,7 +15,7 @@ def fit():
     pickle.dump(clf, open(MODEL_PATH, 'wb'))
 
 
-def main(sepal_length=None, sepal_width=None, 
+def predict(sepal_length=None, sepal_width=None, 
          petal_length=None, petal_width=None):
     """Main entry point to model
 
